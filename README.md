@@ -2,7 +2,7 @@
 
 ## Description
 
-ReedMeNow is an application currently in development. This app aims to provide an intuitive user experience for efficiently managing and sharing content.
+ReedMeNow is an application currently in development, built and running on the **internet computer**. This app aims to provide an intuitive user experience for efficiently managing and sharing content.
 
 ## Features
 
@@ -30,6 +30,16 @@ To install this application, please follow these steps:
    ```bash
    npm install
    ```
+
+### Dependencies
+
+This application relies on the following key dependencies:
+
+- **React:** A JavaScript library for building user interfaces.
+- **Node.js:** JavaScript runtime built on Chrome's V8 engine.
+- **Internet Computer SDK:** Tools and libraries to interact with the Internet Computer.
+
+For a complete list of dependencies, please refer to the `package.json` file in the project directory.
 
 ## Usage
 
