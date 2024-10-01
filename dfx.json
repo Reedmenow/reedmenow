@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "novelapp_backend": {
+      "candid": "src/novelapp_backend/novelapp_backend.did",
+      "package": "novelapp_backend",
+      "type": "rust"
+    },
+    "novelapp_frontend": {
+      "dependencies": [
+        "novelapp_backend"
+      ],
+      "source": [
+        "src/novelapp_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "novelapp_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
